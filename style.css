@@ -7,13 +7,10 @@
     grid-gap: 1rem;
 }
 
-.item {
-    /* background-color: goldenrod; */
+.header {
+    /* background-color: gray; */
     margin-left: 20%;
     margin-right: 20%;
-}
-
-.header {
     border-bottom: 1px solid black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
@@ -32,6 +29,9 @@
 }
 
 .main-content {
+    /* background-color: gray; */
+    margin-left: 20%;
+    margin-right: 20%;
     border-bottom: 1px solid black;
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
@@ -51,10 +51,21 @@ p {
 
 img {
     width: 100%;
-    margin-bottom: 25px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+figure {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 100%;
+    margin-left: 0;
 }
 
 .footer {
+    /* background-color: gray; */
+    margin-left: 20%;
+    margin-right: 20%;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 1px;
 }

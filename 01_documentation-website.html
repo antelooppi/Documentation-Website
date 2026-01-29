@@ -8,26 +8,29 @@
 </head>
 <body>
     <div class="container">
-        <div class="item header">
+        <div class="header">
             <nav class="navbar">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="assignments.html">Assignments</a></li>
-            </ul>
-        </nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="assignments.html">Assignments</a></li>
+                </ul>
+            </nav>
         </div>
-        <div class="item main-content">
+        <div class="main-content">
             <main>
                 <h1>Assignment 01: Documentation Website</h1>
-                    <p>I created this website using VSCode and Github Pages. I don't have much prior experience on web development, so I decided to work only with HTML and CSS. I also wanted the site to be clear and easy to navigate, which also led to the minimalistic design approach.</p>
-                    <p>At the time of writing this text, all the pages on the website have been built using the same structure. The main structure consists of two pieces: the top navigation bar and the main content of each page. The navigation bar has been build with &lt;nav&gt; and &lt;list&gt; elements. On all pages, the navigation bar stays the same, containing simple hyperlinks to move between the pages. The main content of each page consists mainly of text, images and videos.</p>
-                    <p>I will be developing this site further during the course. The updates will be in terms of content, looks and functionality. One goal I'll try to keep in mind when updating, is to make this site as accessible as I can. I want the site - at least in theory - to be readable not only by me, but by all kinds of people with different kinds of equipment. This is a learning process for me, so I probably won't get it right the first time, but I want to at least try to learn how to use, for example, semantic HTML elements and media optimization when updating this site.</p>
-                    <img src="Media/documentation-website-html.png" alt="A screenshot of current website's page structure written in HTML.">
+                    <figure>
+                        <img src="Media/html-example.png" alt="A picture of the website's index page written in HTML.">
+                        <figcaption>This website's index page written in HTML.</figcaption>
+                    </figure>
+                    <p>I created this website using VSCode and Github Pages. I don't have much prior experience on web development, so I decided to work only with HTML and CSS. I also wanted the site to be light and clear, which led to the minimalistic design approach you are experiencing right now.</p>
+                    <p>At the time of writing this, all the pages use the same visual structure. The structure consists of three areas: the top navigation bar, the main content of the page and the footer. The visual layout has been build with CSS Grid, using individual dividers for each one of the areas. Inside the dividers, I'm using semantic HTML elements, like &lt;nav&gt;, &lt;main&gt; and &lt;footer&gt;.</p>
+                    <p>Learning the basics of CSS Grid was really helpful when designing the visual structure of the website. The full power of it won't probably be fully realized on my simple three-piece vertical layout, but at least I have the option to try more complicated design choices in the future if I wanted. Where CSS Grid really came in handy was in dividing the visual layout into separate sections, positioning them, and adapting them to the browser size in a meaningful way.</p>
             </main>
         </div>
-        <div class="item footer">
-            <p>FOOTER. All Rights Reserved. 2026.</p>
+        <div class="footer">
+            <footer>This is a footer. All Rights Reserved.</footer>
         </div>
     </div>
 </body>
